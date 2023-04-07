@@ -41,8 +41,6 @@ const isValidDay = (year, month, day) => {
 const calculateDifference = (year, month, day) => {
 	// Set the date in the past
 	const pastDate = new Date(year, month, day);
-	console.log(pastDate.getTime());
-
 	// Get today's date
 	const today = new Date();
 
